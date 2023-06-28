@@ -17,6 +17,7 @@
     id="heart-stroke"
     d="M 10,30 A 20,20 0,0,1 50,30 A 20,20 0,0,1 90,30 Q 90,60 50,90 Q 10,60 10,30 z"
     transform="translate(150,0) scale(0.5, 0.5)"
+    inkscape:label="single-path-stroke"
     style="fill:#dbf153"
     stroke="#4444ff"
     stroke-width="5" />

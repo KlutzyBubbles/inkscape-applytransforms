@@ -32,7 +32,8 @@ class ApplyTransform(inkex.EffectExtension):
         if node.tag == inkex.addNS('path', 'svg') or node.tag == 'path':
             for attName in node.attrib.keys():
                 if ("sodipodi" in attName) or ("inkscape" in attName):
-                    del node.attrib[attName]
+                    if ("label" not in attName):
+                        del node.attrib[attName]
             return node
 
         return node
